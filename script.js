@@ -39,6 +39,15 @@ const translations = {
     projectsTitle: "Referans projelerden seçilmiş işler.",
     projectsIntro:
       "1992'den beri otel, havalimanı, yat, konut, fabrika ve temsil yapıları için ürün tedariği.",
+    inspirationTitle: "Marka ve ürün ilhamı",
+    inspirationIntro:
+      "Markaların koleksiyon, ürün ve showroom paylaşımları. Bu bağlantılar SSA Yapı'nın tamamladığı proje referanslarından ayrıdır.",
+    inspirationThg: "Markanın Instagram hesabından banyo koleksiyonları ve tasarım detayları.",
+    inspirationSamuel: "Novis & Curzon koleksiyonundan tuvalet kağıdı tutucu. Ürün detayları ve teknik bilgiler.",
+    inspirationWaterworks: "Washington, DC'deki yenilenen Georgetown showroom'undan banyo ve mutfak tasarımı ilhamı.",
+    inspirationInstagram: "Instagram'da incele",
+    inspirationProduct: "Ürünü incele",
+    inspirationLinkedin: "LinkedIn'de incele",
     marineTitle: "Yatlar, tekneler ve özel marine işleri için malzemeler.",
     marineText:
       "SSA Yapı ürün gamında King Starboard, Supersede Marine Board ve onarım, refit, yeni üretim projeleri için geniş marine ekipman tedarik ağı bulunur.",
@@ -88,6 +97,15 @@ const translations = {
     projectsTitle: "Selected work from reference projects.",
     projectsIntro:
       "Product supply for hotels, airports, yachts, residences, factories and representative buildings since 1992.",
+    inspirationTitle: "Brand and product inspiration",
+    inspirationIntro:
+      "Collection, product and showroom highlights from the brands. These links are separate from SSA Yapı's completed project references.",
+    inspirationThg: "Bathroom collections and design details from the brand's Instagram account.",
+    inspirationSamuel: "A paper holder from the Novis & Curzon collection. Product details and technical information.",
+    inspirationWaterworks: "Bath and kitchen design inspiration from the reimagined Georgetown showroom in Washington, DC.",
+    inspirationInstagram: "Explore on Instagram",
+    inspirationProduct: "View product",
+    inspirationLinkedin: "Explore on LinkedIn",
     marineTitle: "Materials for yachts, boats and specialist marine work.",
     marineText:
       "SSA Yapı's product range includes King Starboard, Supersede Marine Board and a wide network of marine equipment suppliers for repair, refit and new-build projects.",

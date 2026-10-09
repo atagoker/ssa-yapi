@@ -421,11 +421,13 @@ h3 {
 .brand-category-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
   gap: 12px;
 }
 
 .brand-category-card {
   display: grid;
+  align-content: start;
   gap: 12px;
   padding: 20px;
   border: 1px solid var(--line);
@@ -604,6 +606,69 @@ h3 {
   line-height: 1.7;
 }
 
+.brand-inspiration {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.brand-inspiration h3 {
+  margin: 0 0 12px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.brand-inspiration-intro {
+  max-width: 780px;
+  margin: 0 0 22px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.brand-inspiration-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.brand-inspiration-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.brand-inspiration-card:hover {
+  border-color: var(--red);
+  transform: translateY(-2px);
+}
+
+.brand-inspiration-card h4 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.45rem;
+}
+
+.brand-inspiration-card p {
+  flex: 1;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.brand-inspiration-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--red);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
 .marine {
   position: relative;
   width: 100%;
@@ -752,7 +817,8 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .brand-category-grid {
+  .brand-category-grid,
+  .brand-inspiration-grid {
     grid-template-columns: 1fr;
   }
 
